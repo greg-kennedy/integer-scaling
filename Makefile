@@ -14,11 +14,13 @@ CFLAGS+=-O2
 # strip result
 #CFLAGS+=-s
 
-all:	main.c
+all:	integer-scaling
+
+integer-scaling:	main.c
 	$(CC) $(CFLAGS) -Wall -o integer-scaling main.c
 
 source:	main.c
 	$(CC) $(CFLAGS) -S main.c
 
 clean:
-	rm -f integer-scaling *.o *.s
+	rm -f integer-scaling *.o *.s *.ppm

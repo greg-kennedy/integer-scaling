@@ -1,5 +1,9 @@
 # integer-scaling
+Greg Kennedy 2019
+
 Testing ground for various integer scaling routines
+
+![Example Input Image](image_in.png)
 
 ## Overview
 This is a C source file containing various methods for doing "nearest neighbor"
